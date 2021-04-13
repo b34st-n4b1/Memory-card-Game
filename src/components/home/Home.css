@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center; 
+    /* margin:0 auto; */
+     padding-bottom:200px;
+}
+
+h1, h2{
+  text-align: center;
+  /* margin-left:40px; */
+}
+.btn-container{
+    width:600px;
+    height:auto;
+    display: flex;
+    padding-top: 50px;
+    margin-right:100px;
+    margin: 0 auto;
+    /* border : 1px solid #000; */
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.btn {
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: rgb(27, 147, 252);
+  /* margin-left:80px; */
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover{
+  background-color: rgb(248, 183, 6);
+  box-shadow: 2px 8px 8px #000;
+    
+}
+ 
+@media screen and (max-width: 992px) {
+  .btn-container{
+    width:450px;
+    height:auto;
+    display: flex;
+    padding-top: 50px;
+    margin-left:-40px;
+    margin: 0 auto;
+    /* border : 1px solid #000; */
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: rgb(27, 147, 252);
+  /* margin-left:80px; */
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .btn-container{
+    width:200px;
+    height:auto;
+    display: flex;
+    padding-top: 50px;
+    margin-left:-30px;
+    /* margin: 0 auto; */
+    /* border : 1px solid #000; */
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: rgb(27, 147, 252);
+  /* margin-left:80px; */
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
